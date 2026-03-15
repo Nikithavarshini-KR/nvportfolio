@@ -1,0 +1,342 @@
+<html>
+<head>
+<title>portfolios</title>
+<style>
+#vv
+{
+display: flex;
+font-family: Georgia, serif;
+background-color: purple;
+color: white;
+}
+#vv ul
+{
+display: flex;
+margin-left:500px;
+}
+#vv ul li
+{
+list-style-type:none;
+padding:20px;
+font-family:Georgia, serif;
+font-weight:bold;
+}
+#ff
+{
+margin-left:180px;
+margin-top:120px;
+}
+h3
+{
+border-style:solid;
+background-color:white;
+border-radius: 500px;
+color:purple;
+display:inline-block;
+padding:10px;
+font-family:Georgia, serif;
+}
+h2
+{
+border-style:solid;
+background-color:white;
+border-radius: 500px;
+color:purple;
+display:inline-block;
+padding:10px;
+font-family:Georgia, serif;
+}
+p
+{
+border-style:solid;
+background-color:white;
+border-radius: 500px;
+color:purple;
+display:inline-block;
+padding:10px;
+font-weight:bold;
+font-family:Georgia, serif;
+}
+body
+{
+background-color:purple;
+font-family:Georgia, serif;
+}
+.profile
+{
+width:350px;
+height:auto;
+position:absolute;
+right:80px;
+top:197px;
+border-style:solid;
+border-radius:140px;
+border:5px solid white;
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0% {transform: translateY(0);}
+50% {transform: translateY(-15px);}
+100% {transform: translateY(0);}
+}
+.about-section
+{
+display:flex;
+align-items: flex-start;
+gap: 40px;
+padding: 50px;
+}
+.about-image img
+{
+width:350px;
+border-style:solid;
+border-radius:140px;
+border:5px solid white;
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0% {transform: translateY(0);}
+50% {transform: translateY(-15px);}
+100% {transform: translateY(0);}
+}
+.about-text{
+width:350px;
+height:200px;
+margin-left:150px;
+}
+#para
+{
+width:600px;
+height:auto;
+padding:20px;
+border-style:solid;
+border-radius:40px;
+background-color:#f5f0d8;
+text-align:left;
+margin-top:20px;
+}
+#skills
+{
+color: white;
+width:100%;
+text-align: center;
+margin-top:40px;
+font-size:20px;
+}
+hr
+{
+width:95%;
+border:2px solid white;
+margin:60px auto;
+}
+.skills-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+.skill-box{
+width:220px;
+background-color:white;
+color:#6a5acd;
+padding:20px;
+border-radius:20px;
+text-align:center;
+border:2px solid white;
+}
+.skill-box h3{
+background:none;
+border:none;
+color:#6a5acd;
+}
+.skill-box p{
+background:none;
+border:none;
+color:purple;
+}
+#kk
+{
+color: white;
+width:100%;
+text-align: center;
+margin-top:40px;
+font-size:20px;
+}
+#project
+{
+display:flex;
+}
+#project img
+{
+border-style:solid;
+border-radius:80px;
+border:3px solid white;
+margin-left:150px;
+}
+#project h1
+{
+color:white;
+margin-left:150px;
+}
+#dd
+{
+text-align:center;
+color:white;
+}
+@media(max-width:768px)
+{
+#vv
+{
+flex-direction:column;
+text-align:center;
+}
+#vv ul
+{
+margin-left:0;
+justify-content:center;
+}
+.profile
+{
+position:static;
+width:320px;
+margin:20px auto;
+display:block;
+}
+#ff
+{
+margin-left:20px;
+margin-top:40px;
+text-align:center;
+}
+.about-section
+{
+flex-direction:column;
+text-align:center;
+align-items:center;
+}
+.about-text
+{
+margin-left:0;
+width:90%;
+}
+#para
+{
+width:90%;
+}
+#vj
+{
+display:none;
+}
+#skills
+{
+margin-top:200px;
+flex-direction:column;
+}
+#project
+{
+flex-direction:column;
+}
+#project img
+{
+margin-left:60px;
+}
+#project h1
+{
+margin-left:60px;
+}
+#project p
+{
+margin-left:30px;
+padding-left:30px;
+}
+}
+
+</style>
+</head>
+<body>
+<div id="vv">
+<h1>PORTFOLIO</h1>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Skills</li>
+<li>Projects</li>
+</ul>
+</div>
+<hr>
+<div id="ff">
+<h3>Hello I'm</h3><br>
+<h2>NikithaVarshini KR</h2><br>
+<p>
+I have learned .NET framework and gained knowledge in building applications<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It helps developers create secure and scalable software solutions
+</p>
+</div>
+<div id="ss">
+<img src="girl.gif" class="profile">
+</div><br><br><br><br><hr>
+<div class="about-section">
+<div class="about-image">
+<img src="girl1.gif" class="about-img">
+</div>
+<div class="about-text">
+<h2>Aboutme</h2><br>
+<h3>Aspiring .NET Developer</h3><br>
+<p id="para">
+Hi I am NikithaVarshini .NET Developer<br>
+I have learned .NET and developed basic skills in building web and application solution using this framework.<br>
+it helps in creating secure,scalable,and efficient software applications
+</p>
+</div>
+</div>
+<hr id="vj">
+<div id="skills">
+<h1>Skills</h1>
+</div>
+<div class="skills-container">
+<div class="skill-box">
+<h3>HTML</h3>
+<img src="html.gif">
+<p>I have knowledge of HTML and use it to structure web pages using headings, paragraphs, forms, images, and links.</p>
+</div>
+<div class="skill-box">
+<h3>CSS</h3>
+<img src="css.gif">
+<p>I use CSS to design attractive web pages with colors, layouts, spacing, animations, and responsive design.</p>
+</div>
+<div class="skill-box">
+<h3>JavaScript</h3>
+<img src="js.gif">
+<p>I use JavaScript to add interactivity such as button actions, dynamic content, and user event handling.</p>
+</div>
+<div class="skill-box">
+<h3>.NET</h3>
+<img src="net.gif">
+<p>I have learned the .NET framework and gained knowledge in developing secure and scalable web applications.</p>
+</div>
+</div><hr>
+<div id="kk">
+<h1>Projects</h1>
+</div>
+<div id="project">
+<div>
+<h1>Finance Tracker App</h1>
+<img src="fintrack.gif" width="300px" height="300px"><br><br>
+<p>Finance Tracker is web application that helps users manage and track their daily expenses and income.<br>
+It allows users to record financial transactions,monitor spending habits, and maintain better control over their personal finances.</p>
+</div>
+<div id="oo">
+<h1>Study Planner App</h1>
+<img src="studys.gif" width="300px" height="300px"><br><br>
+<p>Study Planner is an application that helps students organize their study schedules,manage tasks,and improve productivity through structured planning<br>
+It helps students stay focused, track their progress, and improve time management for better learning outcomes.</p>
+</div>
+</div><hr>
+<div id="dd">
+<footer>&copy; Nikitha-nikithavarshini3@gmail.com-7689564323</footer>
+</div>
+</body>
+</html>
